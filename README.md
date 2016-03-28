@@ -57,8 +57,8 @@ Output: Max value that can fit in knapsack.
 *Example*
 Input:
 
-    10 3
-    148
+    10          W max capacity
+    3 1 4 8     Array of bars size 3
 
 Output:
 

@@ -8,7 +8,7 @@ long Calculator(long N, long** steps);
 int main() {
     long N, num_steps;
     scanf("%ld", &N);
-    long* steps = (long*) calloc(1, sizeof(long));
+    long* steps;
     num_steps = Calculator(N, &steps);
     printf("%ld\n", num_steps);
     for (long m = 0; m <= num_steps; ++m) {

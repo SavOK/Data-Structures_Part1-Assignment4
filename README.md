@@ -67,7 +67,7 @@ Output:
 
 **Note**
 - Solution O(N&sdot;W) </br>
-- in this problem weight and value are identical, optimal value equal max weight
+- In this problem weight and value are identical, optimal value equal max weight
 
 ## Problem 3: [Edit Distance] </br>
 Compute the edit distance between two strings.  
@@ -77,6 +77,7 @@ Output: Edit distance.
 
 **Note**</br>
 - Complexity O(N&sdot;M) </br>
+- This is straight forward implementation of algorithm from course slides.
 
 
 ## Problem 4: [Arithmetic Expression] </br>
@@ -98,12 +99,13 @@ Output:
 
 **Note**
 - Complexity O(N<sup>2</sup>)</br>
+- This is straight forward implementation of algorithm from course slides.
 
 ## Problem 5: [LCS]</br>
 Compute the length of a longest common subsequence of three sequences.</br>
 
 Input:&nbsp;&nbsp;&nbsp; Three numeric sequences A, B, C of length N, M, L.
-</br> 1 &le; N,M,L &le; 100; −10<sup>9</sup> &lt; a<sub>i</sub>,b<sub>i</sub>,
+</br> 1 &le; N,M,L &le; 100; −10<sup>9</sup> &lt; a<sub>i</sub>, b<sub>i</sub>,
 c<sub>i</sub> &lt; 10<sup>9</sup>.  
 Output: Length of LCS  
 
